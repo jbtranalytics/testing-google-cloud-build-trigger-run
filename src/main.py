@@ -8,10 +8,10 @@ def hello():
 
 @app.get("/name/{name}")
 def hello_name(name: str):
-    return {"message": f"Hello {name}"}
+    return {"message": f"Hello {name}. Have a nice day!"}
 
 @app.get("/square/{number}}")
-def square_number(number: float):
-    return {"message": number*number}
+def square_number(number: int):
+    return {"message": number}
 
 
