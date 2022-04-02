@@ -10,7 +10,7 @@ def hello():
 def hello_name(name: str):
     return {"message": f"Hello {name}. Have a nice day!"}
 
-@app.get("/square/{number}}")
+@app.get("/square/{number}")
 def square_number(number: int):
     return {"message": number*number}
 
