@@ -12,6 +12,6 @@ def hello_name(name: str):
 
 @app.get("/square/{number}}")
 def square_number(number: int):
-    return {"message": number}
+    return {"message": number*number}
 
 
